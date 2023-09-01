@@ -20,7 +20,7 @@ You need to install
 
 Copy the Github repo:
 ```
-  -git clone _____
+  -git clone https://github.com/MattMiaozhuangHe/3D_mAP_Evaluation.git
 ```
   
 Setup environment:
