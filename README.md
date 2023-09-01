@@ -20,14 +20,14 @@ You need to install
 
 Copy the Github repo:
 ```
-  -git clone https://github.com/MattMiaozhuangHe/3D_mAP_Evaluation.git
+git clone https://github.com/MattMiaozhuangHe/3D_mAP_Evaluation.git
 ```
   
 Setup environment:
 ```
-  -conda create mAP
-  -conda activate mAP
-  -conda install requirement.txt
+conda create mAP
+conda activate mAP
+conda install requirement.txt
 ```
 
 # Run the evaluation code
