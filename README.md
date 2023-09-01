@@ -32,7 +32,7 @@ conda install requirement.txt
 
 # Run the evaluation code
 ```
-  -python main.py
+python main.py
 ```
 #### Create the detection-results files
 
