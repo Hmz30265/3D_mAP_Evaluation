@@ -38,7 +38,8 @@ Setup environment:
 ```
 conda create mAP
 conda activate mAP
-conda install requirement.txt
+conda install torch
+conda install pytorchvision
 ```
 
 # Run the evaluation code
