@@ -8,6 +8,17 @@ mean Average Precision in 6D pose estimation - This code evaluates the performan
 # Citation
 Majority of this code is from the following project: https://github.com/Cartucho/mAP/tree/master , which is evaluation of 2D image object detection.
 
+Key function of calculating IoU is from:
+```
+@article{ravi2020pytorch3d,
+    author = {Nikhila Ravi and Jeremy Reizenstein and David Novotny and Taylor Gordon
+                  and Wan-Yen Lo and Justin Johnson and Georgia Gkioxari},
+    title = {Accelerating 3D Deep Learning with PyTorch3D},
+    journal = {arXiv:2007.08501},
+    year = {2020},
+}
+```
+
 # Explaination
 This evaluation uses IoU metric.(Intersection over Union)If IoU is over a threshold, it is considered as True Positive(TP), otherwise it is False Positive(FP). If IoU is equal to zero, it is considered as False Negative(FN). 
 
