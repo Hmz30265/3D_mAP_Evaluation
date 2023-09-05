@@ -1,6 +1,9 @@
 # 3D_mAP_Evaluation
 mean Average Precision in 6D pose estimation - This code evaluates the performance of a model in 3D detection objects.  
 
+```diff
+- WARNING:This code has NOT been tested with any real dataset!
+```
 
 # Citation
 Majority of this code is from the following project: https://github.com/Cartucho/mAP/tree/master , which is evaluation of 2D image object detection.
