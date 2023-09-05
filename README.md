@@ -22,14 +22,15 @@ Key function of calculating IoU is from:
 # Explaination
 This evaluation uses IoU metric.(Intersection over Union)If IoU is over a threshold, it is considered as True Positive(TP), otherwise it is False Positive(FP). If IoU is equal to zero, it is considered as False Negative(FN). 
 
-
+<img width="671" alt="IoU_explain" src="https://github.com/MattMiaozhuangHe/3D_mAP_Evaluation/assets/133658992/a0a30968-69f2-4982-b876-1497e1c483eb">
 
 
 According to the number of TP, FP and FN, the code will draw a Precision and Recall curve. At different threshold, muiltiple precision will be calculated. Therefore we can add up precisions and get an average, which is average precision. Sum up all precisions of classes, get another mean, it is mean average precision(mAP).
 
 Here is an simple Precision and Recall curve that this data set generates:
 
-![book](https://github.com/MattMiaozhuangHe/3D_mAP_Evaluation/assets/133658992/34727e9e-db67-4cae-94d7-d49f3835ab1d)
+![book](https://github.com/MattMiaozhuangHe/3D_mAP_Evaluation/assets/133658992/730d3b56-4ee1-4774-8a19-f57d221abe77)
+
 
 
 The key function to calculate IoU: box3d_overlapis() at line 659 is from Pytorch3D package: https://pytorch3d.org/docs/iou3d.
@@ -67,7 +68,8 @@ python main.py
     ```
     <class_name> <confidence> <right bot front> <left top back>
     ```
-  ![image](https://github.com/MattMiaozhuangHe/3D_mAP_Evaluation/assets/133658992/06250b9a-f157-4932-add6-aaf604d6a808)
+![image](https://github.com/MattMiaozhuangHe/3D_mAP_Evaluation/assets/133658992/1f24cef8-bf48-4116-b425-6926ca520bc9)
+
 
 - E.g. "image_1.txt":
     ```
