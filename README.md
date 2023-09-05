@@ -19,7 +19,7 @@ Here is an simple Precision and Recall curve that this data set generates:
 ![book](https://github.com/MattMiaozhuangHe/3D_mAP_Evaluation/assets/133658992/34727e9e-db67-4cae-94d7-d49f3835ab1d)
 
 
-The function calculating IoU: is from Pytorch3D package: https://pytorch3d.org/docs/iou3d.
+The key function to calculate IoU: box3d_overlapis() at line 659 is from Pytorch3D package: https://pytorch3d.org/docs/iou3d.
 
 
 
