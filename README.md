@@ -22,7 +22,6 @@ Key function of calculating IoU is from:
 # Explaination
 This evaluation uses IoU metric.(Intersection over Union)If IoU is over a threshold, it is considered as True Positive(TP), otherwise it is False Positive(FP). If IoU is equal to zero, it is considered as False Negative(FN). 
 
-<img width="671" alt="IoU_explain" src="https://github.com/MattMiaozhuangHe/3D_mAP_Evaluation/assets/133658992/61cd3895-b34a-459b-a889-7d96cc0a7d4e">
 
 
 
