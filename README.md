@@ -50,9 +50,9 @@ git clone https://github.com/MattMiaozhuangHe/3D_mAP_Evaluation.git
   
 Setup environment:
 ```
-conda create mAP
+conda create -n mAP
 conda activate mAP
-conda install torch
+conda install pytorch
 conda install pytorchvision
 ```
 
